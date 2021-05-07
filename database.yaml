@@ -44,7 +44,7 @@
         login_unix_socket: /var/run/mysqld/mysqld.sock 
         name: wordpress
         password: P@$$w0rd!
-        host: 192.168.50.2
+        host: 192.168.50.%
         priv: 'wordpress.*:ALL,GRANT'        
     - name: Restart MySQL
       service:
